@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		015D3A551B56367500D09B4D /* UITableView+ax_cache.m in Sources */ = {isa = PBXBuildFile; fileRef = 015D3A541B56367500D09B4D /* UITableView+ax_cache.m */; };
 		01865AB21B50B1F2003E2C13 /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 01865AAE1B50B1F2003E2C13 /* NSDate+Category.m */; };
 		01865AB31B50B1F2003E2C13 /* NSDateFormatter+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 01865AB11B50B1F2003E2C13 /* NSDateFormatter+Category.m */; };
+		01ABBE401B56506700A6BC36 /* AXIndexPathCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ABBE3D1B56506700A6BC36 /* AXIndexPathCache.m */; };
+		01ABBE411B56506700A6BC36 /* UITableView+ax_cache.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ABBE3F1B56506700A6BC36 /* UITableView+ax_cache.m */; };
 		01F0B9821B4EB60700E26965 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F0B9811B4EB60700E26965 /* main.m */; };
 		01F0B9851B4EB60700E26965 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F0B9841B4EB60700E26965 /* AppDelegate.m */; };
 		01F0B9881B4EB60700E26965 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F0B9871B4EB60700E26965 /* MasterViewController.m */; };
@@ -17,16 +18,17 @@
 		01F0B98E1B4EB60700E26965 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F0B98C1B4EB60700E26965 /* Main.storyboard */; };
 		01F0B9901B4EB60700E26965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F0B98F1B4EB60700E26965 /* Assets.xcassets */; };
 		01F0B9931B4EB60700E26965 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F0B9911B4EB60700E26965 /* LaunchScreen.storyboard */; };
-		01F0B99D1B4EB61300E26965 /* AXIndexPathCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F0B99C1B4EB61300E26965 /* AXIndexPathCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		015D3A531B56367500D09B4D /* UITableView+ax_cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+ax_cache.h"; sourceTree = "<group>"; };
-		015D3A541B56367500D09B4D /* UITableView+ax_cache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+ax_cache.m"; sourceTree = "<group>"; };
 		01865AAD1B50B1F2003E2C13 /* NSDate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Category.h"; sourceTree = "<group>"; };
 		01865AAE1B50B1F2003E2C13 /* NSDate+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Category.m"; sourceTree = "<group>"; };
 		01865AB01B50B1F2003E2C13 /* NSDateFormatter+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Category.h"; sourceTree = "<group>"; };
 		01865AB11B50B1F2003E2C13 /* NSDateFormatter+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+Category.m"; sourceTree = "<group>"; };
+		01ABBE3C1B56506700A6BC36 /* AXIndexPathCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXIndexPathCache.h; sourceTree = "<group>"; };
+		01ABBE3D1B56506700A6BC36 /* AXIndexPathCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXIndexPathCache.m; sourceTree = "<group>"; };
+		01ABBE3E1B56506700A6BC36 /* UITableView+ax_cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+ax_cache.h"; sourceTree = "<group>"; };
+		01ABBE3F1B56506700A6BC36 /* UITableView+ax_cache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+ax_cache.m"; sourceTree = "<group>"; };
 		01F0B97D1B4EB60700E26965 /* AXCellCacheDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AXCellCacheDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F0B9811B4EB60700E26965 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		01F0B9831B4EB60700E26965 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,8 +41,6 @@
 		01F0B98F1B4EB60700E26965 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01F0B9921B4EB60700E26965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01F0B9941B4EB60700E26965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		01F0B99B1B4EB61300E26965 /* AXIndexPathCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXIndexPathCache.h; sourceTree = "<group>"; };
-		01F0B99C1B4EB61300E26965 /* AXIndexPathCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXIndexPathCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +72,21 @@
 			path = "NSDateFormatter+Category";
 			sourceTree = "<group>";
 		};
+		01ABBE3B1B56506700A6BC36 /* AXIndexPathCache */ = {
+			isa = PBXGroup;
+			children = (
+				01ABBE3C1B56506700A6BC36 /* AXIndexPathCache.h */,
+				01ABBE3D1B56506700A6BC36 /* AXIndexPathCache.m */,
+				01ABBE3E1B56506700A6BC36 /* UITableView+ax_cache.h */,
+				01ABBE3F1B56506700A6BC36 /* UITableView+ax_cache.m */,
+			);
+			path = AXIndexPathCache;
+			sourceTree = "<group>";
+		};
 		01F0B9741B4EB60700E26965 = {
 			isa = PBXGroup;
 			children = (
+				01ABBE3B1B56506700A6BC36 /* AXIndexPathCache */,
 				01F0B97F1B4EB60700E26965 /* AXCellCacheDemo */,
 				01F0B97E1B4EB60700E26965 /* Products */,
 			);
@@ -93,7 +105,6 @@
 			children = (
 				01865AAC1B50B1F2003E2C13 /* NSDate+Category */,
 				01865AAF1B50B1F2003E2C13 /* NSDateFormatter+Category */,
-				01F0B99A1B4EB61300E26965 /* AXTableViewCellCache */,
 				01F0B9831B4EB60700E26965 /* AppDelegate.h */,
 				01F0B9841B4EB60700E26965 /* AppDelegate.m */,
 				01F0B9861B4EB60700E26965 /* MasterViewController.h */,
@@ -115,17 +126,6 @@
 				01F0B9811B4EB60700E26965 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		01F0B99A1B4EB61300E26965 /* AXTableViewCellCache */ = {
-			isa = PBXGroup;
-			children = (
-				01F0B99B1B4EB61300E26965 /* AXIndexPathCache.h */,
-				01F0B99C1B4EB61300E26965 /* AXIndexPathCache.m */,
-				015D3A531B56367500D09B4D /* UITableView+ax_cache.h */,
-				015D3A541B56367500D09B4D /* UITableView+ax_cache.m */,
-			);
-			path = AXTableViewCellCache;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,14 +198,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01F0B99D1B4EB61300E26965 /* AXIndexPathCache.m in Sources */,
-				015D3A551B56367500D09B4D /* UITableView+ax_cache.m in Sources */,
 				01865AB31B50B1F2003E2C13 /* NSDateFormatter+Category.m in Sources */,
 				01F0B9851B4EB60700E26965 /* AppDelegate.m in Sources */,
 				01865AB21B50B1F2003E2C13 /* NSDate+Category.m in Sources */,
 				01F0B9881B4EB60700E26965 /* MasterViewController.m in Sources */,
+				01ABBE401B56506700A6BC36 /* AXIndexPathCache.m in Sources */,
 				01F0B9821B4EB60700E26965 /* main.m in Sources */,
 				01F0B98B1B4EB60700E26965 /* DetailViewController.m in Sources */,
+				01ABBE411B56506700A6BC36 /* UITableView+ax_cache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
